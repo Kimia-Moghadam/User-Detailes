@@ -19,10 +19,10 @@ const UserDetails = () => {
         fetchUser();
     }, [id]);
 
-    if (!user) return <div>Loading...</div>;
+    if (!user) return <div className="loading">Loading...</div>;
 
     return (
-        <div>
+        <div className="user-details">
             <h1>User Details</h1>
             <p><strong>Name:</strong> {user.name}</p>
             <p><strong>Email:</strong> {user.email}</p>
