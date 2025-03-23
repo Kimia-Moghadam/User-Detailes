@@ -1,2 +1,2 @@
 # User-Detailes
- fetch user data with routind(API)
+ fetch user data with routing(API)
